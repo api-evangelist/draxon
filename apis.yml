@@ -1,8 +1,24 @@
 aid: draxon
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/draxon.png
 name: Draxon
-description: 'Draxon is a company surfaced as a portfolio company of hv-capital, point-nine and added
-  to the API Evangelist network as a stub for enrichment. Sector: ai-enterprise-software. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Draxon is a Berlin-based company (founded 2025, backed by HV Capital and Point Nine)
+  that provides IATA-certified virtual reality training for airport ground handling operations. The
+  platform ships pre-configured Meta Quest VR headsets and an immersive training library covering ramp
+  equipment such as belt loaders, tractors, pushback tugs, GPUs and towable stairs, plus safety
+  procedures and hand signals for frontline ramp personnel. Its Trainer Hub delivers automated,
+  IATA-compliant certification tracking with self-paced or instructor-led modules. Draxon operates as a
+  B2B SaaS training provider and does not publish a public developer API, SDKs, or API documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/draxon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai Enterprise Software
+- Virtual Reality
+- Training
+- Aviation
+- Ground Handling
+- Enterprise Software
+- Berlin
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/draxon-domain-security.yml
 - type: Website
   url: https://www.draxon.com
+- type: Pricing
+  url: https://draxon.com/pricing
+- type: Login
+  url: https://lms.draxon.com/login
+- type: PrivacyPolicy
+  url: https://draxon.com/legal/privacy
+- type: Support
+  url: https://draxon.com/contact
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
