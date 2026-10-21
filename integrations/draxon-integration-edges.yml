@@ -7,7 +7,7 @@ edges:
   relationship: standard-participant
   direction: partner-built
   evidence: https://www.aci-europe.org/aci-membership/wbp-directory/381-draxon.html
-  category: class="partner-txt"> IT & Communications, Handling & Airfield
+  category: IT & Communications, Handling & Airfield
   contract_reference:
     register: ACI EUROPE World Business Partners Directory (aci-europe.org/aci-membership/wbp-directory.html)
     standard: ACI World Business Partner programme (airport industry)
