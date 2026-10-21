@@ -1,0 +1,46 @@
+edges:
+- partner_name: ACI EUROPE World Business Partners
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.aci-europe.org/aci-membership/wbp-directory/381-draxon.html
+  category: class="partner-txt"> IT & Communications, Handling & Airfield
+  contract_reference:
+    register: ACI EUROPE World Business Partners Directory (aci-europe.org/aci-membership/wbp-directory.html)
+    standard: ACI World Business Partner programme (airport industry)
+    spec_file: null
+    role: aci-world-business-partner
+    registered_name: Draxon
+    register_country: Germany
+    register_id: https://draxon.com/
+    matched_domain: draxon.com
+    matched_by: domain
+    signal_note: 'participation only: listed as an ACI World Business Partner in the regional directory, which links
+      each partner''s own website; listing is membership, not conformance'
+    detected_by: sweep-air-traffic-aviation-data.py
+    detected: '2026-10-20'
+  detected_by: sweep-air-traffic-aviation-data.py
+  first_seen: '2026-10-20'
+generated: '2026-10-20'
+method: searched
+source:
+- https://www.aci-europe.org/aci-membership/wbp-directory.html
+- https://aci-lac.aero/en/regular-world-business-partners/
+- https://www.aci-africa.aero/members/business-partners/
+- https://eur-registry.swim.aero/
+- https://www.faa.gov/air_traffic/technology/swim
+- https://portal.airportscouncil.org/Portal/Directories/World_Business_Partners.aspx
+- https://www.aci-asiapac.aero/membership/wbp-capability-database
+- https://www.iata.org/en/programs/airline-distribution/retailing/ndc/
+checked:
+- https://aci-lac.aero/en/regular-world-business-partners/
+- https://eur-registry.swim.aero/
+- https://portal.airportscouncil.org/Portal/Directories/World_Business_Partners.aspx
+- https://www.aci-africa.aero/members/business-partners/
+- https://www.aci-asiapac.aero/membership/wbp-capability-database
+- https://www.aci-europe.org/aci-membership/wbp-directory.html
+- https://www.faa.gov/air_traffic/technology/swim
+- https://www.iata.org/en/programs/airline-distribution/retailing/ndc/
